@@ -1,7 +1,7 @@
 // Group Project: Mixed Messages by Anna Maddocks 
 
 const fitnessElements = {
-    athletes: ['Matt Fraser', 'Rich Froning', 'Katrin DavisDottir', 'Tia Toomey', 'Brooke Wells', 'Patrick Vellner'],
+    athletes: ['Matt Fraser', 'Rich Froning', 'Katrin Davidsdottir', 'Tia Toomey', 'Brooke Wells', 'Patrick Vellner'],
     event: ['Event1', 'Event2', 'Event3', 'Event4', 'Event5', 'Event6'],
     exercise: ['Deadlift', 'Squat Clean', 'Handstand Walking', 'Snatch', 'Box Jumps', 'Double Unders', 'OverHead Squat', 'Handstand Pushups']
 
