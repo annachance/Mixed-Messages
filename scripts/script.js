@@ -1,28 +1,28 @@
 // Group Project: Mixed Messages by Anna Maddocks 
 
-const suspectedElements = {
+const fitnessElements = {
     athletes: ['Matt Fraser', 'Rich Froning', 'Katrin DavisDottir', 'Tia Toomey', 'Brooke Wells', 'Patrick Vellner'],
     event: ['Event1', 'Event2', 'Event3', 'Event4', 'Event5', 'Event6'],
     exercise: ['Deadlift', 'Squat Clean', 'Handstand Walking', 'Snatch', 'Box Jumps', 'Double Unders', 'OverHead Squat', 'Handstand Pushups']
 
 };
 
-let accusation = [];
-let randomeSelect = arrayLength => {
+let step = [];
+let randomSelect() = arrayLength => {
     return Math.floor(Math.random() * arrayLength);
 
 }
 
-for (let element in suspectedElements) {
-    let randomIndex = randomSelect(suspectedElements[element].length);
+for (let element in fitnessElements) {
+    let randomIndex = randomSelect(fitnessElements[element].length);
     switch (element) {
         case 'athletes':
-            accusation.push(`Competitor ${suspectedElements[element][randomIndex]},`);  break;
+            step.push(`Competitor ${fitnessElements[element][randomIndex]},`);  break;
         case 'event':
-            accusation.push(`in ${suspectedElements[element][randomIndex]},`);  break;
+            step.push(`in ${fitnessElements[element][randomIndex]},`);  break;
         case 'exercise':
-            accusation.push(`hit an amazing new PB in their ${suspectedElements[element][randomIndex]}.`);  break;
+            step.push(`hit an amazing new PB in their ${fitnessElements[element][randomIndex]}.`);  break;
     }
 }
 
-console.log(accusation.join(' '));
+console.log(step.join(' '));
